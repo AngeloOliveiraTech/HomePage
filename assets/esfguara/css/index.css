@@ -1,0 +1,110 @@
+h4{
+     font-family: 'Helvetica';
+     color: #424242;
+} 
+
+nav{
+     background-color: #01395C !important;
+     height: 90px;
+}
+
+.nav-wrapper .responsive-img{
+     max-height: 100% !important;
+     padding: 1% 0 !important; 
+} 
+
+.convite{
+     height: 425px; 
+     background-color: #fafafa;
+     padding: 2% 0;
+}
+
+.convite h2, .localizacao h2, .sinais h2{
+     padding: 0 0 2% 3%;
+}
+
+.convite i{
+     font-size: 30px;
+     vertical-align: middle;
+     margin-right: 3% !important;
+     color: red !important;
+}
+
+.convite h6 a{
+     font-size: 75%;
+     padding: 0 1%;
+}
+
+.dados{
+     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+     .mapa{
+          /* block-size: 100vh; */
+          max-height: 30vh;
+          max-width: 100%;
+     }
+
+     h2{
+          font-size: 35px;
+     }
+
+     h4{
+          font-size: 25px;
+     }
+}
+
+.sinais h2{
+     color: #ffffff;
+}
+
+.sinais{
+     background-color: #2D3748;
+     padding: 2% 0;
+     border-top: 3px solid #ffa726;
+}
+
+.mensagem{
+     background-color: #01395C;
+     color: #ffffff;
+     font-family: 'Gill Sans', 'Gill Sans MT';
+     font-weight: bold !important;
+     text-shadow: 3px 3px 3px black !important;
+     padding: 3% 0;
+     border-top: 3px solid #BB1626;
+}
+.card-title{
+     color: #000000 !important;
+     padding-bottom: 0px !important;
+}
+
+.localizacao{
+     background-color: #eeeeee;
+     padding: 2% 0;
+}
+
+footer{
+     background-color: #212121 !important;
+}
+
+footer p{
+     margin: 0% 0;
+}
+
+footer .responsive-img{
+     max-width: 75%;
+     padding-top: 5% !important;
+}
+
+footer li{
+     margin: 3% 0;
+}
+
+footer i{
+     margin-right: 2%;
+}
+
+.footer-copyright{
+     background-color: #000000 !important;
+}

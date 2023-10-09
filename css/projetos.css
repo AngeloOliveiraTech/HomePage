@@ -1,0 +1,111 @@
+body{
+     background-color: #e1e1e1;
+     background-image: url('../img/others/sec02.png');
+}
+
+nav{
+     background-image: linear-gradient(to right, rgba(51, 51, 51, 1) 50%, rgba(28,57,102,1) 75%);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+     nav{
+          background-color: #1c3966 !important;
+          background-image: none !important;
+     }
+}
+
+.brand-logo{
+     white-space: nowrap;
+}
+
+nav li a:hover{
+     background-color: #ffffff !important;
+     color: #000000 !important;
+}
+
+#mobile-demo{
+     max-width: 60%;
+     background-image: url('../img/others/mobile_demo.png');
+}
+
+#mobile-demo a{
+     border-left: 3px solid blue;
+     padding-left: 2%;
+     margin-bottom: 5%;
+}
+
+#mobile-demo .first,.third{
+     color: #000000 !important;
+}
+
+/* -------- Projetos -------------- */
+
+.card-action a{
+     color: #000000 !important;
+     font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tec_used{
+     width: 29px;
+     margin-bottom: -10px;
+}
+
+.git_click{
+     margin-bottom: 2%;
+}
+
+/* -------- Curriculum -------------- */
+
+.curriculum{
+     margin: 3% 0%;
+}
+
+.academica, .habilidades{
+     margin-left: 3%;
+}
+
+.card-panel{
+     border-radius: 3%;
+}
+
+/* -------- Contato -------------- */
+
+.meus_contatos{
+     margin: 5% 0%;
+}
+
+.contatos{
+     margin: 4% 0;
+}
+
+.contatos a{
+     color: #000000 !important;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parallax-container {
+     height: 200px;
+     margin-bottom: -3%;
+}
+
+@media screen and (max-width: 600px) {
+     .meus_contatos{
+          margin: 18% 0%;
+     }
+
+     .contatos a{
+          font-size: large;
+     }
+}
+
+/* -------- Footer -------------- */
+
+.page-footer{
+     background-color: #333333;
+     border-radius: 7%;
+}
+
+.footer-copyright{
+     background-color: #2c2c2c !important;
+}
