@@ -53,12 +53,17 @@
                                         <p>ETEC Guaratinguetá | Fevereiro/2018 a Dezembro/2020.</p>
                                    </div>
 
-                                   <h4 class="light">Habilidades</h4>
+                                   <!--<h4 class="light">Habilidades</h4>
                                    <div class="divider"></div>
 
                                    <div id="skills" class="habilidades">
 
+                                   </div>-->
+
+                                   <div class="pdf">
+                                        <a href="assets/Curriculum_Angelo_Roberto_Gonçalves_de_Oliveira.pdf" target="_blank" rel="noopener noreferrer"><i class="left material-icons">open_in_new</i> Clique aqui para versão do meu Curriculum em formato PDF!</a>
                                    </div>
+
                               </div>
                          </div>
 
@@ -79,14 +84,13 @@
                                    <div class="divider"></div>
 
                                    <div class="experiencia">
+                                        <h6>&rang; STAR Telerradiologia</h6>
+                                        <p>Analista de Suporte Jr. | Março/2024 até o Agosto/2024</p>
                                         <h6>&rang; Autônomo em manutenção de computadores</h6>
                                         <p>Autônomo | Abril/2018 até o momento</p>
                                         <h6>&rang; Estagiário em Assessoria de Marketing Digital</h6>
                                         <p>TOGETHER IMOBI | Setembro/2021 até Janeiro/2023</p>
                                    </div>
-                              </div>
-                              <div class="container">
-                                   <a href="assets/Curriculum_Angelo_Roberto_Gonçalves_de_Oliveira.pdf"><i class="left material-icons">open_in_new</i> Clique aqui para versão em PDF!</a>
                               </div>
 
                          </div>
@@ -94,12 +98,82 @@
                </div>
           </section>
 
+          <section class="sec03">
+               <div class="container">
+                    <div class="row">
+                         <h2 class="light left-align">Back-End</h2>
+                    </div>     
+                    
+                    <div class="slider">
+                         <ul class="slides">
+                              <li>
+                                   <div class="row">
+                                        <div class="col s6 m4 ">
+                                             <img id="node" class="responsive-img" src="img/backend/node.png">
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <img id="net" class="circle responsive-img" src="img/backend/net_core.png">
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <img id="sqls" class="responsive-img" src="img/backend/sqlserver.png">
+                                        </div>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="row">
+                                        <div class="col s6 m4">
+                                             <img id="mysql" class="responsive-img" src="img/backend/mysql.png"></a>
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <img id="php" class="responsive-img" src="img/backend/php.png"></a>
+                                        </div>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+              </div>
+          </section>
+
+          <section class="sec02">
+               <div class="container">
+                    <h2 class="light">Front-End</h2>  
+                      
+                    <div class="slider">
+                         <ul class="slides">
+                              <li>
+                                   <div class="row">
+                                        <div class="col s6 m4 ">
+                                             <img id="html" class="circle responsive-img z-depth-2" src="img/frontend/html.png">
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <img id="js" class="circle responsive-img z-depth-2" src="img/frontend/js.png">
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <img id="css" class="circle responsive-img z-depth-2" src="img/frontend/css.png">
+                                        </div>
+                                   </div>
+                              </li>
+                              <li>
+                                   <div class="row">
+                                        <div class="col s6 m4">
+                                             <a class="tooltipped" data-position="bottom" ><img id="bootstrap" class="circle responsive-img" src="img/frontend/bootstrap.png"></a>
+                                        </div>
+                                        <div class="col s6 m4">
+                                             <a class="tooltipped" data-position="bottom" ><img id="materialize" class="circle responsive-img" src="img/frontend/materialize.png"></a>
+                                        </div>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div> 
+              </div>
+          </section>
+
           <footer class="page-footer">
                <div class="container">
                  <div class="row">
                    <div class="col l6 s12">
-                     <h5 class="white-text">Desenvolvedor Back-End</h5>
-                     <p class="grey-text text-lighten-4">Busco oportunidade na área de desenvolvimento de sistemas!</p>
+                     <h5 class="white-text">Analista de Sistemas Jr.</h5>
+                     <p class="grey-text text-lighten-4">Busco oportunidade na área de suporte de sistemas!</p>
                    </div>
                    <div class="col l4 offset-l2 s12">
                      <h5 class="white-text">Links</h5>
@@ -113,7 +187,7 @@
                </div>
                <div class="footer-copyright">
                  <div class="container">
-                 © 2023 Todos os direitos reservados
+                 © 2024 Todos os direitos reservados
                  </div>
                </div>
              </footer>
@@ -132,6 +206,15 @@
                $('.sidenav').sidenav();
           });
 
+          $(document).ready(function(){
+               var options = {
+                    height: 355,
+                    duration: 0,
+                    interval: 4000
+               }
+               $('.slider').slider(options);
+          });
+          
           $(document).ready(function(){
                $('.tooltipped').tooltip();
           });

@@ -69,6 +69,50 @@ nav li a:hover{
      border-radius: 3%;
 }
 
+.pdf{
+     margin-top: 7%;
+     margin-bottom: 5%;
+}
+
+.pdf a{
+     color: #B80F0A !important;
+}
+
+/* -------- Habilidades como Desenvolvedor --------*/
+
+.slides{
+     background-color: transparent !important;
+}
+
+
+/* -------- Front-End -------------- */
+
+.sec02{   
+     background-image: url('../img/others/sec02.png');
+}
+
+#html, #css, #js {
+    transform: scale(0.75); 
+}
+
+/* -------- Back-End -------------- */
+
+.sec03{
+     background-color: #1E2837;
+     color: #ffffff;
+}
+
+.sec03 img{
+     transform: scale(0.75); 
+}
+
+/* -------- Outros -------------- */
+
+.sec02 h2, .sec03 h2{
+     margin-top: 0%;
+     padding-top: 1%;
+}
+
 /* -------- Contato -------------- */
 
 .meus_contatos{
@@ -108,4 +152,8 @@ nav li a:hover{
 
 .footer-copyright{
      background-color: #2c2c2c !important;
+}
+
+.modal{
+     width: 80%;
 }

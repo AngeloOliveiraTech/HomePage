@@ -50,7 +50,7 @@
                                               </div>
                                               <div class="card-stacked">
                                                 <div class="card-content">
-                                                  <p>É um sistema desenvolvido pelo grupo de TCC do 6° ADS da FATEC Guaratinguetá, com objetivo de gerenciar o estacionamento do campus.
+                                                  <p>É um sistema desenvolvido pelo grupo de TCC do 6° ADS da FATEC Guaratinguetá, com objetivo de gerenciar ocorrências e monitorar o estacionamento do campus.
                                                   </p>
                                                   <br>
                                                   <p>Foi desenvolvido em grupo, agradeço a colaboração de todos.</p>
@@ -58,7 +58,14 @@
                                                   <a href="https://www.linkedin.com/in/suzi-marques-45ab9a218/"><i class="fa-brands fa-linkedin fa-sm" style="color: #000000;"></i> Suzi Marquês</a>
                                                 </div>
                                                 <div class="card-action">
-                                                  <a href="#">SAIBA MAIS</a>
+                                                  <a class="modal-trigger" href="#es_fatec">SAIBA MAIS</a>
+
+                                                  <div id="es_fatec" class="modal modal-fixed-footer">
+                                                    <div class="modal-content">
+                                                      <img class="responsive-img" src="img/projects/es_fatec/tela_home.png">
+                                                    </div>
+                                                  </div>
+
                                                   <i class="fa-brands fa-html5 fa-2xl" style="color: #ff5222;"></i>
                                                   <i class="fa-brands fa-css3 fa-2xl" style="color: #379ad6;"></i>
                                                   <img src="img/frontend/bootstrap.png" class="tec_used">
@@ -105,7 +112,7 @@
                                                   </p>
                                                 </div>
                                                 <div class="card-action">
-                                                  <a href="https://netcase.azurewebsites.net/"><i class="material-icons">open_in_new</i> VEJA</a>
+                                                  <a href="https://netcase.free.nf"><i class="material-icons">open_in_new</i> VEJA</a>
                                                   <i class="fa-brands fa-html5 fa-2xl" style="color: #ff5222;"></i>
                                                   <i class="fa-brands fa-css3 fa-2xl" style="color: #379ad6;"></i>
                                                   <img src="img/frontend/materialize.png" class="tec_used">
@@ -161,7 +168,7 @@
                                               <a href="https://www.linkedin.com/in/suzi-marques-45ab9a218/"><i class="fa-brands fa-linkedin fa-sm" style="color: #000000;"></i> Suzi Marquês</a>
                                         </div>
                                         <div class="card-action">
-                                            <a href="#">SAIBA MAIS</a>
+                                            <a class="modal-trigger" href="#es_fatec">SAIBA MAIS</a>
                                             <i class="fa-brands fa-html5 fa-2xl" style="color: #ff5222;"></i>
                                             <i class="fa-brands fa-css3 fa-2xl" style="color: #379ad6;"></i>
                                             <img src="img/frontend/bootstrap.png" class="tec_used">
@@ -203,7 +210,7 @@
                                               </p>
                                             </div>
                                             <div class="card-action">
-                                              <a href="https://netcase.azurewebsites.net/"><i class="material-icons">open_in_new</i> VEJA</a>
+                                              <a href="https://netcase.free.nf"><i class="material-icons">open_in_new</i> VEJA</a>
                                               <i class="fa-brands fa-html5 fa-2xl" style="color: #ff5222;"></i>
                                               <i class="fa-brands fa-css3 fa-2xl" style="color: #379ad6;"></i>
                                               <img src="img/frontend/materialize.png" class="tec_used">
@@ -245,8 +252,8 @@
                <div class="container">
                  <div class="row">
                    <div class="col l6 s12">
-                     <h5 class="white-text">Desenvolvedor Back-End</h5>
-                     <p class="grey-text text-lighten-4">Busco oportunidade na área de desenvolvimento de sistemas!</p>
+                     <h5 class="white-text">Analista de Sistemas Jr.</h5>
+                     <p class="grey-text text-lighten-4">Busco oportunidade na área de suporte de sistemas!</p>
                    </div>
                    <div class="col l4 offset-l2 s12">
                      <h5 class="white-text">Links</h5>
@@ -260,7 +267,7 @@
                </div>
                <div class="footer-copyright">
                  <div class="container">
-                 © 2023 Todos os direitos reservados
+                 © 2024 Todos os direitos reservados
                  </div>
                </div>
              </footer>
@@ -272,6 +279,14 @@
 
           $(document).ready(function(){
                $('.sidenav').sidenav();
+          });
+
+          $(document).ready(function(){
+            $('.modal').modal();
+          });
+
+          $(document).ready(function(){
+            $('.slider').slider();
           });
 
      </script>
