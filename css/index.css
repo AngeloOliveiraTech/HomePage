@@ -50,6 +50,32 @@ nav li a:hover{
 
 }
 
+/* ------- Apresentação escrita -----------*/
+
+.sec02{
+     padding: 3% 0%;
+}
+
+.card-panel{
+     border-radius: 2%;
+}
+
+.sec02{
+     background-color: #e1e1e1 !important;   
+     background-image: url('../img/others/sec02.png');
+}
+
+.apresentacao{
+     white-space: pre-wrap;
+}
+
+@media screen and (max-width: 600px) {
+     .apresentacao{
+          font-size: large !important;
+     }
+
+}
+
 /* ------- Veja meus projetos ------- */
 
 .sec04{
