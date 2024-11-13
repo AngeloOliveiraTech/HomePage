@@ -14,12 +14,20 @@ nav{
 } 
 
 .convite{
-     height: 425px; 
      background-color: #fafafa;
      padding: 2% 0;
 }
 
-.convite h2, .localizacao h2, .sinais h2{
+.sobre{
+     background-image: url('../img/maanaim.jpg'); /* Caminho para sua imagem */
+     background-size: cover; /* Para a imagem cobrir toda a seção */
+     background-position: center; /* Centraliza a imagem */
+     background-repeat: no-repeat; /* Evita que a imagem se repita */
+     color: #000000; /* Ajusta a cor do texto para ser visível sobre a imagem */
+     padding: 2% 0; 
+}
+
+.convite h2, .localizacao h2, .sinais h2, .sinais h2, .sobre h2{
      padding: 0 0 2% 3%;
 }
 
